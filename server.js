@@ -2,7 +2,7 @@ var express = require("express");
 const port = process.env.PORT || 8100
 const path = require("path");
 const app = express();
-const data = require('./models/data');
+// const data = require('./models/data');
 const mustacheExpress = require("mustache-express");
 
 const mongo = require("mongodb");
